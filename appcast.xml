@@ -3,6 +3,47 @@
     <channel>
         <title>Silcrate</title>
         <item>
+            <title>0.2.1</title>
+            <pubDate>Fri, 31 Jul 2026 15:00:46 +0300</pubDate>
+            <link>https://github.com/keenhatch/silcrate</link>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body { font: 13px -apple-system, sans-serif; color: #1d1d1f; background: #ffffff; margin: 16px; }
+h2 { font-size: 15px; margin: 14px 0 6px; }
+ul { padding-left: 20px; margin: 6px 0; }
+li { margin: 3px 0; }
+a { color: #0071e3; }
+@media (prefers-color-scheme: dark) {
+    body { color: #f5f5f7; background: #1e1e1e; }
+    a { color: #2997ff; }
+}
+</style>
+</head>
+<body>
+<div class="markdown-heading"><h2 class="heading-element">What's New</h2><a id="user-content-whats-new" class="anchor" aria-label="Permalink: What's New" href="#whats-new"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<ul>
+<li>
+<strong>Updates show up the same day they ship.</strong> Silcrate now checks for new versions every hour instead of once a day, so you're not sitting on an old build waiting for it to notice.</li>
+<li>
+<strong>Opening About checks for an update.</strong> The check runs quietly in the background — if you're already current, nothing appears.</li>
+</ul>
+<div class="markdown-heading"><h2 class="heading-element">Fixes</h2><a id="user-content-fixes" class="anchor" aria-label="Permalink: Fixes" href="#fixes"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<ul>
+<li>
+<strong>The domain you register during setup is now actually the default.</strong> If the previously stored default wasn't routing anywhere, Silcrate switches to the one you just set up. A default that already routes is left alone, since you picked that one on purpose.</li>
+</ul>
+</body>
+</html>]]></description>
+            <enclosure url="https://github.com/keenhatch/silcrate/releases/download/v0.2.1/Silcrate-0.2.1.dmg" length="23433277" type="application/octet-stream" sparkle:edSignature="2XNIVmKfPZU/v6W+izzTBbjzbxlyHgxGaAnwlYLGQTsvUMA/J7qh7Q6fi6QTQB9NWvpuIgVtSpuM7YG6NhmoDg=="/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Fri, 31 Jul 2026 14:40:46 +0300</pubDate>
             <link>https://github.com/keenhatch/silcrate</link>
