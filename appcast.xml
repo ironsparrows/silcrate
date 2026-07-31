@@ -3,11 +3,11 @@
     <channel>
         <title>Silcrate</title>
         <item>
-            <title>0.1.12</title>
-            <pubDate>Wed, 29 Jul 2026 23:12:26 +0300</pubDate>
+            <title>0.2.0</title>
+            <pubDate>Fri, 31 Jul 2026 14:40:46 +0300</pubDate>
             <link>https://github.com/keenhatch/silcrate</link>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<!DOCTYPE html>
@@ -30,24 +30,38 @@ a { color: #0071e3; }
 <div class="markdown-heading"><h2 class="heading-element">What's New</h2><a id="user-content-whats-new" class="anchor" aria-label="Permalink: What's New" href="#whats-new"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
 <ul>
 <li>
-<p><strong>Silcrate runs on container 1.2.0.</strong> It's the version Silcrate checks for during setup and the one it installs for you — if you're still on 1.1.0, setup will prompt you to update. Kernels are now checked against an expected checksum before they're installed.</p>
+<p><strong>A DNS screen, under Networking.</strong> Every domain this Mac routes, which one is the default, and for each of them the containers answering there — with their service, project and hostname. Add a domain, make one the default, or remove one you no longer need. A domain can't be removed while it's the default or still in use, and the screen tells you what to do first. Making a different domain the default only affects containers created from then on: nothing restarts, and nothing already running is renamed.</p>
 </li>
 <li>
-<p><strong>Container and machine names are capped at 63 characters.</strong> That's the limit container 1.2.0 enforces, and the name field flags a name that's too long as you type. If you already have a container or machine with a longer name, 1.2.0 will refuse to start, delete or show logs for it — remove it before you update.</p>
+<p><strong>Hostnames open in your browser.</strong> Click one in the DNS screen, in a network's attached containers, or on a container's or machine's Overview.</p>
+</li>
+<li>
+<p><strong>Setup registers a domain for you.</strong> A new step on the checklist sets the domain new containers are created under. It's pre-filled, so the fast path is one click, and it shows what your container names will look like as you type. Names are checked before the password prompt — <code>.local</code>, reserved names, real top-level domains and names another tool already uses each explain what taking them would break. If you'd rather do it by hand, the exact command is shown and follows whatever you type.</p>
+</li>
+<li>
+<p><strong>Already set up on an earlier version?</strong> You'll be sent back to setup once to register a domain. Nothing else about your install changes.</p>
+</li>
+<li>
+<p><strong>Register a domain in Terminal and Silcrate picks it up</strong>, without reopening anything.</p>
+</li>
+<li>
+<p><strong>The sidebar is grouped.</strong> Dashboard on top, then Workload, Resources, Networking and Build under their own headings, replacing the unlabelled dividers. Networks and DNS appear for machines too, since a machine attaches to the same networks and answers on the same domains a container does.</p>
+</li>
+<li>
+<p><strong>One icon set, everywhere.</strong> Containers, machines, images, volumes and networks look the same on page headers, empty states, create screens, dashboard tiles and attachment tables.</p>
+</li>
+<li>
+<p><strong>Setup tells you which version you have.</strong> The command-line tool and guest kernel rows read "Installed 1.2.3" rather than just "Installed".</p>
 </li>
 </ul>
 <div class="markdown-heading"><h2 class="heading-element">Fixes</h2><a id="user-content-fixes" class="anchor" aria-label="Permalink: Fixes" href="#fixes"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
 <ul>
-<li>
-<p><strong>No more restarting the app after first-run setup.</strong> Setting Silcrate up on a Mac with no container CLI left Builder, Containers, Machines and Networks reporting "Connection invalid", and quitting and reopening was the only way out. Those screens now reconnect on their own, whenever the service is installed, restarted or replaced.</p>
-</li>
-<li>
-<p><strong>A rejected name tells you the whole rule.</strong> The error under the name field listed which characters were allowed but never the length, so a name that was too long came back with advice you were already following. Containers and machines now say 2 to 63 characters, networks up to 63, volumes up to 255 — and a network name says it must be lowercase and start and end with a letter or digit.</p>
-</li>
+<li>Adding a domain that's already routed is refused up front, instead of quietly doing nothing.</li>
+<li>During setup, typing a domain you've already registered counts as done — no password prompt, no error.</li>
 </ul>
 </body>
 </html>]]></description>
-            <enclosure url="https://github.com/keenhatch/silcrate/releases/download/v0.1.12/Silcrate-0.1.12.dmg" length="23124048" type="application/octet-stream" sparkle:edSignature="QRmt0cdHvvmWpPwjVELVChKso2bGng3ONmQsvNNxYivDKFgsn6iXjdsVRCfeuLPnHYroVn9q6ZAk2Pez6Bu2DA=="/>
+            <enclosure url="https://github.com/keenhatch/silcrate/releases/download/v0.2.0/Silcrate-0.2.0.dmg" length="23430815" type="application/octet-stream" sparkle:edSignature="uHIT4dk9mBmPPGMh21Xwqh+cTxJAx/KkOBItZeMccsDsAJUZf90c7UM1ETcj+oOOYoceEbNrHEpVnetMf9hRDw=="/>
         </item>
     </channel>
 </rss>
