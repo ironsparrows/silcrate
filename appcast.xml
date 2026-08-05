@@ -5,7 +5,7 @@
         <item>
             <title>0.2.3</title>
             <pubDate>Wed, 05 Aug 2026 09:45:21 +0300</pubDate>
-            <link>https://github.com/keenhatch/silcrate</link>
+            <link>https://github.com/ironsparrows/silcrate</link>
             <sparkle:version>17</sparkle:version>
             <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26</sparkle:minimumSystemVersion>
@@ -42,7 +42,7 @@ a { color: #0071e3; }
 </ul>
 </body>
 </html>]]></description>
-            <enclosure url="https://github.com/keenhatch/silcrate/releases/download/v0.2.3/Silcrate-0.2.3.dmg" length="23449956" type="application/octet-stream" sparkle:edSignature="no+7U6/9UDCIHWGPqn8CQHd7kH69SsxVgzUNRCd3pItYmDv25GV6goQtpcbzbMacpJZZjHf0UDSjWYX8ORcgCw=="/>
+            <enclosure url="https://github.com/ironsparrows/silcrate/releases/download/v0.2.3/Silcrate-0.2.3.dmg" length="23449956" type="application/octet-stream" sparkle:edSignature="no+7U6/9UDCIHWGPqn8CQHd7kH69SsxVgzUNRCd3pItYmDv25GV6goQtpcbzbMacpJZZjHf0UDSjWYX8ORcgCw=="/>
         </item>
     </channel>
 </rss>
