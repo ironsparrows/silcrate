@@ -9,11 +9,11 @@
 A calm, precise macOS GUI for Apple's open-source [`container`](https://github.com/apple/container) CLI —
 containers, Linux machines, images, volumes and networks, all without Docker Desktop.
 
-[![Latest release](https://img.shields.io/github/v/release/keenhatch/silcrate?label=latest&color=1B9A4B)](https://github.com/keenhatch/silcrate/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/keenhatch/silcrate/total?color=14A44A)](https://github.com/keenhatch/silcrate/releases)
+[![Latest release](https://img.shields.io/github/v/release/ironsparrows/silcrate?label=latest&color=1B9A4B)](https://github.com/ironsparrows/silcrate/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/ironsparrows/silcrate/total?color=14A44A)](https://github.com/ironsparrows/silcrate/releases)
 ![Platform](https://img.shields.io/badge/macOS%2026%2B-Apple%20silicon-2BF06B)
 
-**[Download the latest release](https://github.com/keenhatch/silcrate/releases/latest)** · **[silcrate.com](https://silcrate.com)**
+**[Download the latest release](https://github.com/ironsparrows/silcrate/releases/latest)** · **[silcrate.com](https://silcrate.com)**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://silcrate.com/screenshots/hero/hero-dashboard-dark.webp" />
@@ -72,7 +72,7 @@ Issues are open, and bug reports and feature requests belong here.
 
 ## Install
 
-1. Download the `.dmg` from the [latest release](https://github.com/keenhatch/silcrate/releases/latest)
+1. Download the `.dmg` from the [latest release](https://github.com/ironsparrows/silcrate/releases/latest)
 2. Open it and drag **Silcrate** to Applications
 
 The app is signed and notarized; no account needed. To verify a download, grab the
@@ -101,7 +101,7 @@ own. Details: [silcrate.com/privacy](https://silcrate.com/privacy)
 ## Feedback
 
 Found a bug, or want to shape the beta?
-[Open an issue](https://github.com/keenhatch/silcrate/issues) or write to
+[Open an issue](https://github.com/ironsparrows/silcrate/issues) or write to
 [feedback@silcrate.com](mailto:feedback@silcrate.com) — there's also **Send Feedback**
 right inside the app.
 
@@ -109,6 +109,6 @@ right inside the app.
 
 <div align="center">
 
-© 2026 Niosoft EOOD, trading as [Keenhatch](https://keenhatch.com) · Built by [Dionysios Karatzas](mailto:diokaratzas@gmail.com)
+© 2026 Niosoft EOOD, trading as [IronSparrows](https://ironsparrows.com) · Built by [Dionysios Karatzas](mailto:diokaratzas@gmail.com)
 
 </div>
