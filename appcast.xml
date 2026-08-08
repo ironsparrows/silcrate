@@ -3,6 +3,42 @@
     <channel>
         <title>Silcrate</title>
         <item>
+            <title>0.2.6</title>
+            <pubDate>Sat, 08 Aug 2026 09:23:28 +0300</pubDate>
+            <link>https://github.com/ironsparrows/silcrate</link>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body { font: 13px -apple-system, sans-serif; color: #1d1d1f; background: #ffffff; margin: 16px; }
+h2 { font-size: 15px; margin: 14px 0 6px; }
+ul { padding-left: 20px; margin: 6px 0; }
+li { margin: 3px 0; }
+a { color: #0071e3; }
+@media (prefers-color-scheme: dark) {
+    body { color: #f5f5f7; background: #1e1e1e; }
+    a { color: #2997ff; }
+}
+</style>
+</head>
+<body>
+<div class="markdown-heading"><h2 class="heading-element">What's New</h2><a id="user-content-whats-new" class="anchor" aria-label="Permalink: What's New" href="#whats-new"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<ul>
+<li>
+<strong>Silcrate runs on container 1.2.2.</strong> It's the version Silcrate checks for during setup and the one it installs for you — if you're still on 1.2.0, setup will prompt you to update. Nothing you've already created changes: containers, images, volumes and networks carry over untouched.</li>
+<li>
+<strong>Containers hit memory limits less often.</strong> The 1.2.2 runtime gives each container's virtual machine more headroom for memory mappings, so workloads that map a lot of files — databases, search indexes, big test suites — stop failing on a machine that has memory to spare.</li>
+</ul>
+</body>
+</html>]]></description>
+            <enclosure url="https://github.com/ironsparrows/silcrate/releases/download/v0.2.6/Silcrate-0.2.6.dmg" length="23455717" type="application/octet-stream" sparkle:edSignature="IaJjzVbvYaIIjqOEdAEYuBv4RS+zO3fDcW7cyiqqD9hdvksiDrfphEecHRrzuOMxwhW9BrxiQ6Ht+yxS0JSfBw=="/>
+        </item>
+        <item>
             <title>0.2.5</title>
             <pubDate>Wed, 05 Aug 2026 11:37:04 +0300</pubDate>
             <link>https://github.com/ironsparrows/silcrate</link>
@@ -77,48 +113,6 @@ a { color: #0071e3; }
 </body>
 </html>]]></description>
             <enclosure url="https://github.com/ironsparrows/silcrate/releases/download/v0.2.4/Silcrate-0.2.4.dmg" length="23449956" type="application/octet-stream" sparkle:edSignature="qRibZlYpiIvsKybKboTIkvq8OT6zJfeRjvJhZqFobf3BJl4yKS1fPPG0ax6DOaZc2LUaYR4tRMIyFRbsGnv6DQ=="/>
-        </item>
-        <item>
-            <title>0.2.3</title>
-            <pubDate>Wed, 05 Aug 2026 09:45:21 +0300</pubDate>
-            <link>https://github.com/keenhatch/silcrate</link>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<style>
-body { font: 13px -apple-system, sans-serif; color: #1d1d1f; background: #ffffff; margin: 16px; }
-h2 { font-size: 15px; margin: 14px 0 6px; }
-ul { padding-left: 20px; margin: 6px 0; }
-li { margin: 3px 0; }
-a { color: #0071e3; }
-@media (prefers-color-scheme: dark) {
-    body { color: #f5f5f7; background: #1e1e1e; }
-    a { color: #2997ff; }
-}
-</style>
-</head>
-<body>
-<div class="markdown-heading"><h2 class="heading-element">What's New</h2><a id="user-content-whats-new" class="anchor" aria-label="Permalink: What's New" href="#whats-new"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
-<ul>
-<li>
-<strong>Passwords and tokens no longer sit in plain sight.</strong> Anything that looks like a credential — by its name, or by the shape of its value — is now drawn dotted out. Click the eye to reveal it, and it hides itself again the moment the view redraws, so nothing lingers on screen after you look away. Everything that isn't a secret stays readable as before.</li>
-<li>
-<strong>Copy a hidden value without revealing it.</strong> Right-click a masked entry and copy the real value straight to the clipboard.</li>
-<li>
-<strong>Masking follows your secrets everywhere they show up.</strong> A running container's environment, each Compose service's environment, an image's baked-in environment, labels on containers, volumes and networks, and volume mount options — including the password on a CIFS mount — all hide credentials the same way.</li>
-</ul>
-<div class="markdown-heading"><h2 class="heading-element">Fixes</h2><a id="user-content-fixes" class="anchor" aria-label="Permalink: Fixes" href="#fixes"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
-<ul>
-<li>A label or environment entry that has a key but no value now displays as written, instead of picking up a stray <code>=</code>.</li>
-</ul>
-</body>
-</html>]]></description>
-            <enclosure url="https://github.com/keenhatch/silcrate/releases/download/v0.2.3/Silcrate-0.2.3.dmg" length="23449956" type="application/octet-stream" sparkle:edSignature="no+7U6/9UDCIHWGPqn8CQHd7kH69SsxVgzUNRCd3pItYmDv25GV6goQtpcbzbMacpJZZjHf0UDSjWYX8ORcgCw=="/>
         </item>
     </channel>
 </rss>
